@@ -39,8 +39,7 @@
           "https://www.linkedin.com/company/building-security-services",
 
   "https://www.facebook.com/p/Building-Security-Services-100041575101229/",
-          "https://www.youtube.com/@buildingsecurity",
-"https://www.buildingsecurity.com/llm.txt"
+          "https://www.youtube.com/@buildingsecurity"
         ],
         "address": [
           {
@@ -60,125 +59,17 @@
             "addressCountry": "US"
           }
         ],
-        "geo": [
-          {
-            "@type": "GeoCoordinates",
-            "latitude": 40.7449967,
-            "longitude": -74.3986175,
-            "name": "New Jersey Headquarters"
-          },
-          {
-            "@type": "GeoCoordinates",
-            "latitude": 40.7484925,
-            "longitude": -73.9967593,
-            "name": "New York City Office"
-          }
-        ],
         "areaServed": [
           {
             "@type": "State",
             "name": "New Jersey",
-            "alternateName": "NJ",
-            "containsPlace": [
-              {"@type": "City", "name": "South Orange"},
-              {"@type": "City", "name": "East Orange"},
-              {"@type": "City", "name": "Orange"},
-              {"@type": "City", "name": "Maplewood"},
-              {"@type": "City", "name": "Livingston"},
-              {"@type": "City", "name": "Parsippany"},
-              {"@type": "City", "name": "Secaucus"},
-              {"@type": "City", "name": "Summit"},
-              {"@type": "City", "name": "Newark"},
-              {"@type": "City", "name": "Jersey City"},
-              {"@type": "City", "name": "Hoboken"},
-              {"@type": "City", "name": "Montclair"},
-              {"@type": "City", "name": "Morristown"}
-            ]
+            "alternateName": "NJ"
           },
-         {
-    "@type": "State",
-    "name": "New York",
-    "alternateName": "NY",
-    "containsPlace": [
-       {
-    "@type": "City",
-    "name": "New York City",
-    "containsPlace": [
-      {"@type": "Neighborhood", "name": "Alphabet City"},
-          {"@type": "Neighborhood", "name": "Battery Park City"},
-          {"@type": "Neighborhood", "name": "Bowery"},
-          {"@type": "Neighborhood", "name": "East Village"},
-          {"@type": "Neighborhood", "name": "Greenwich Village"},
-          {"@type": "Neighborhood", "name": "Little Australia"},
-          {"@type": "Neighborhood", "name": "Lower East Side"},
-          {"@type": "Neighborhood", "name": "NoHo"},
-          {"@type": "Neighborhood", "name": "South Village"},
-          {"@type": "Neighborhood", "name": "Two Bridges"},
-          {"@type": "Neighborhood", "name": "West Village"},
-          {"@type": "Neighborhood", "name": "Chinatown"},
-          {"@type": "Neighborhood", "name": "Civic Center"},
-          {"@type": "Neighborhood", "name": "Financial District"},
-          {"@type": "Neighborhood", "name": "Hudson Square"},
-          {"@type": "Neighborhood", "name": "Little Italy"},
-          {"@type": "Neighborhood", "name": "Meatpacking District"},
-          {"@type": "Neighborhood", "name": "Nolita"},
-          {"@type": "Neighborhood", "name": "SoHo"},
-          {"@type": "Neighborhood", "name": "South Street Seaport"},
-          {"@type": "Neighborhood", "name": "Tribeca"},
-          {"@type": "Neighborhood", "name": "World Trade Center"},
-          {"@type": "Neighborhood", "name": "Chelsea"},
-          {"@type": "Neighborhood", "name": "Columbus Circle"},
-          {"@type": "Neighborhood", "name": "Diamond District"},
-          {"@type": "Neighborhood", "name": "Flatiron District"},
-          {"@type": "Neighborhood", "name": "Garment District"},
-          {"@type": "Neighborhood", "name": "Gramercy"},
-          {"@type": "Neighborhood", "name": "Herald Square"},
-          {"@type": "Neighborhood", "name": "Hudson Yards"},
-          {"@type": "Neighborhood", "name": "Hell's Kitchen"},
-          {"@type": "Neighborhood", "name": "Kips Bay"},
-          {"@type": "Neighborhood", "name": "Koreatown"},
-          {"@type": "Neighborhood", "name": "Madison Square"},
-          {"@type": "Neighborhood", "name": "Midtown"},
-          {"@type": "Neighborhood", "name": "Midtown East"},
-          {"@type": "Neighborhood", "name": "Midtown West"},
-          {"@type": "Neighborhood", "name": "Murray Hill"},
-          {"@type": "Neighborhood", "name": "NoMad"},
-          {"@type": "Neighborhood", "name": "Theater District"},
-          {"@type": "Neighborhood", "name": "Times Square"},
-          {"@type": "Neighborhood", "name": "Tudor City"},
-          {"@type": "Neighborhood", "name": "Turtle Bay"},
-          {"@type": "Neighborhood", "name": "Union Square"},
-          {"@type": "Neighborhood", "name": "Lenox Hill"},
-          {"@type": "Neighborhood", "name": "Sutton Place"},
-          {"@type": "Neighborhood", "name": "Carnegie Hill"},
-          {"@type": "Neighborhood", "name": "Lincoln Square"},
-          {"@type": "Neighborhood", "name": "Manhattan Valley"},
-          {"@type": "Neighborhood", "name": "Upper East Side"},
-          {"@type": "Neighborhood", "name": "Upper West Side"},
-          {"@type": "Neighborhood", "name": "Yorkville"},
-          {"@type": "Neighborhood", "name": "East Harlem"},
-          {"@type": "Neighborhood", "name": "Hamilton Heights"},
-          {"@type": "Neighborhood", "name": "Harlem"},
-          {"@type": "Neighborhood", "name": "Hudson Heights"},
-          {"@type": "Neighborhood", "name": "Inwood"},
-          {"@type": "Neighborhood", "name": "Manhattanville"},
-          {"@type": "Neighborhood", "name": "Morningside Heights"},
-          {"@type": "Neighborhood", "name": "Washington Heights"},
-          {"@type": "Neighborhood", "name": "Roosevelt Island"}
-    ]
-  },
-      {"@type": "AdministrativeArea", "name": "Manhattan", "alternateName":
-   "New York County"},
-      {"@type": "AdministrativeArea", "name": "Brooklyn", "alternateName":
-  "Kings County"},
-      {"@type": "AdministrativeArea", "name": "Queens", "alternateName":
-  "Queens County"},
-      {"@type": "AdministrativeArea", "name": "Bronx", "alternateName":
-  "Bronx County"},
-      {"@type": "AdministrativeArea", "name": "Staten Island",
-  "alternateName": "Richmond County"}
-    ]
-  }
+          {
+            "@type": "State",
+            "name": "New York",
+            "alternateName": "NY"
+          }
         ],
         "serviceArea": {
           "@type": "GeoCircle",
@@ -188,16 +79,6 @@
             "longitude": -74.3986175
           },
           "geoRadius": "25 miles"
-        },
-        "priceRange": "$$",
-        "paymentAccepted": ["Credit Card", "Check", "Invoice"],
-        "currenciesAccepted": "USD",
-        "openingHoursSpecification": {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday",
-  "Friday", "Saturday", "Sunday"],
-          "opens": "00:00",
-          "closes": "23:59"
         },
         "aggregateRating": {
           "@type": "AggregateRating",
@@ -299,7 +180,7 @@
         "contactPoint": [
           {
             "@type": "ContactPoint",
-            "contactType": "Customer Service",
+            "contactType": "customer service",
             "telephone": "+1-973-414-1111",
             "email": "info@buildingsecurity.com",
             "areaServed": ["US"]
@@ -330,6 +211,8 @@
           "@id": "https://www.buildingsecurity.com/#organization"
         },
         "priceRange": "$$",
+        "paymentAccepted": ["Credit Card", "Check", "Invoice"],
+        "currenciesAccepted": "USD",
         "telephone": "+1-973-414-1111",
         "email": "info@buildingsecurity.com",
         "address": {
@@ -362,9 +245,62 @@
           {
             "@type": "State",
             "name": "New Jersey",
-            "alternateName": "NJ"
+            "alternateName": "NJ",
+            "containsPlace": [
+              {"@type": "City", "name": "South Orange"},
+              {"@type": "City", "name": "East Orange"},
+              {"@type": "City", "name": "Orange"},
+              {"@type": "City", "name": "Maplewood"},
+              {"@type": "City", "name": "Livingston"},
+              {"@type": "City", "name": "Parsippany"},
+              {"@type": "City", "name": "Secaucus"},
+              {"@type": "City", "name": "Summit"},
+              {"@type": "City", "name": "Newark"},
+              {"@type": "City", "name": "Jersey City"},
+              {"@type": "City", "name": "Hoboken"},
+              {"@type": "City", "name": "Montclair"},
+              {"@type": "City", "name": "Morristown"}
+            ]
           }
-        ]
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Security Services (NJ)",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Security Guard Services",
+                "description": "Professional uniformed guards for on-site 
+  protection.",
+                "provider": {"@id":
+  "https://www.buildingsecurity.com/#localbusiness-nj"}
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Access Control Systems",
+                "description": "On-site installation and integration of 
+  access control systems.",
+                "provider": {"@id":
+  "https://www.buildingsecurity.com/#localbusiness-nj"}
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Video Surveillance Systems",
+                "description": "Comprehensive video monitoring solutions.",
+                "provider": {"@id":
+  "https://www.buildingsecurity.com/#localbusiness-nj"}
+              }
+            }
+          ]
+        }
       },
       {
         "@type": ["ProfessionalService", "LocalBusiness"],
@@ -375,6 +311,8 @@
           "@id": "https://www.buildingsecurity.com/#organization"
         },
         "priceRange": "$$",
+        "paymentAccepted": ["Credit Card", "Check", "Invoice"],
+        "currenciesAccepted": "USD",
         "telephone": "+1-973-414-1111",
         "email": "info@buildingsecurity.com",
         "address": {
@@ -411,9 +349,99 @@
               "@type": "State",
               "name": "New York",
               "alternateName": "NY"
-            }
+            },
+            "containsPlace": [
+              {"@type": "Place", "name": "Alphabet City"},
+              {"@type": "Place", "name": "Battery Park City"},
+              {"@type": "Place", "name": "Bowery"},
+              {"@type": "Place", "name": "East Village"},
+              {"@type": "Place", "name": "Greenwich Village"},
+              {"@type": "Place", "name": "Little Australia"},
+              {"@type": "Place", "name": "Lower East Side"},
+              {"@type": "Place", "name": "NoHo"},
+              {"@type": "Place", "name": "South Village"},
+              {"@type": "Place", "name": "Two Bridges"},
+              {"@type": "Place", "name": "West Village"},
+              {"@type": "Place", "name": "Chinatown"},
+              {"@type": "Place", "name": "Civic Center"},
+              {"@type": "Place", "name": "Financial District"},
+              {"@type": "Place", "name": "Hudson Square"},
+              {"@type": "Place", "name": "Little Italy"},
+              {"@type": "Place", "name": "Meatpacking District"},
+              {"@type": "Place", "name": "Nolita"},
+              {"@type": "Place", "name": "SoHo"},
+              {"@type": "Place", "name": "South Street Seaport"},
+              {"@type": "Place", "name": "Tribeca"},
+              {"@type": "Place", "name": "World Trade Center"},
+              {"@type": "Place", "name": "Chelsea"},
+              {"@type": "Place", "name": "Columbus Circle"},
+              {"@type": "Place", "name": "Diamond District"},
+              {"@type": "Place", "name": "Flatiron District"},
+              {"@type": "Place", "name": "Garment District"},
+              {"@type": "Place", "name": "Gramercy"},
+              {"@type": "Place", "name": "Herald Square"},
+              {"@type": "Place", "name": "Hudson Yards"},
+              {"@type": "Place", "name": "Hell's Kitchen"},
+              {"@type": "Place", "name": "Kips Bay"},
+              {"@type": "Place", "name": "Koreatown"},
+              {"@type": "Place", "name": "Madison Square"},
+              {"@type": "Place", "name": "Midtown"},
+              {"@type": "Place", "name": "Midtown East"},
+              {"@type": "Place", "name": "Midtown West"},
+              {"@type": "Place", "name": "Murray Hill"},
+              {"@type": "Place", "name": "NoMad"},
+              {"@type": "Place", "name": "Theater District"},
+              {"@type": "Place", "name": "Times Square"},
+              {"@type": "Place", "name": "Tudor City"},
+              {"@type": "Place", "name": "Turtle Bay"},
+              {"@type": "Place", "name": "Union Square"},
+              {"@type": "Place", "name": "Lenox Hill"},
+              {"@type": "Place", "name": "Sutton Place"},
+              {"@type": "Place", "name": "Carnegie Hill"},
+              {"@type": "Place", "name": "Lincoln Square"},
+              {"@type": "Place", "name": "Manhattan Valley"},
+              {"@type": "Place", "name": "Upper East Side"},
+              {"@type": "Place", "name": "Upper West Side"},
+              {"@type": "Place", "name": "Yorkville"},
+              {"@type": "Place", "name": "East Harlem"},
+              {"@type": "Place", "name": "Hamilton Heights"},
+              {"@type": "Place", "name": "Harlem"},
+              {"@type": "Place", "name": "Hudson Heights"},
+              {"@type": "Place", "name": "Inwood"},
+              {"@type": "Place", "name": "Manhattanville"},
+              {"@type": "Place", "name": "Morningside Heights"},
+              {"@type": "Place", "name": "Washington Heights"},
+              {"@type": "Place", "name": "Roosevelt Island"}
+            ]
           }
-        ]
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Security Services (NYC)",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Armed Security Guards (NYC)",
+                "description": "Armed guards tailored for New York City 
+  environments.",
+                "provider": {"@id":
+  "https://www.buildingsecurity.com/nyc/#localbusiness"}
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Private Security Services (NYC)",
+                "description": "Custom private security in NYC.",
+                "provider": {"@id":
+  "https://www.buildingsecurity.com/nyc/#localbusiness"}
+              }
+            }
+          ]
+        }
       }
     ]
   }
@@ -747,7 +775,8 @@
           "postalCode":"07079",
           "addressCountry":"US"
         },
-        "areaServed": AREA_NJ,
+        "areaServed": [{ "@type":"State","name":"New 
+  Jersey","alternateName":"NJ"}],
         "image": LOGO_URL ? { "@type":"ImageObject", "url": LOGO_URL } :
   undefined,
         "logo": { "@type":"ImageObject", "url": LOGO_URL },

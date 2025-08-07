@@ -26,7 +26,7 @@
   services for diverse industries across New Jersey and New York.",
         "slogan": "Elevating Security Standards – Your Trusted Partner in 
   Protection",
-        "foundingDate": "1985",
+        "foundingDate": "1982",
         "founder": {
           "@type": "Person",
           "name": "Joseph Ferdinando",
@@ -39,7 +39,8 @@
           "https://www.linkedin.com/company/building-security-services",
 
   "https://www.facebook.com/p/Building-Security-Services-100041575101229/",
-          "https://www.youtube.com/@buildingsecurity"
+          "https://www.youtube.com/@buildingsecurity",
+"https://www.buildingsecurity.com/llm.txt"
         ],
         "address": [
           {
@@ -94,24 +95,90 @@
               {"@type": "City", "name": "Morristown"}
             ]
           },
-          {
-            "@type": "State",
-            "name": "New York",
-            "alternateName": "NY",
-            "containsPlace": [
-              {"@type": "City", "name": "New York City"},
-              {"@type": "AdministrativeArea", "name": "Manhattan",
-  "alternateName": "New York County"},
-              {"@type": "AdministrativeArea", "name": "Brooklyn",
-  "alternateName": "Kings County"},
-              {"@type": "AdministrativeArea", "name": "Queens",
-  "alternateName": "Queens County"},
-              {"@type": "AdministrativeArea", "name": "Bronx",
-  "alternateName": "Bronx County"},
-              {"@type": "AdministrativeArea", "name": "Staten Island",
+         {
+    "@type": "State",
+    "name": "New York",
+    "alternateName": "NY",
+    "containsPlace": [
+       {
+    "@type": "City",
+    "name": "New York City",
+    "containsPlace": [
+      {"@type": "Neighborhood", "name": "Alphabet City"},
+          {"@type": "Neighborhood", "name": "Battery Park City"},
+          {"@type": "Neighborhood", "name": "Bowery"},
+          {"@type": "Neighborhood", "name": "East Village"},
+          {"@type": "Neighborhood", "name": "Greenwich Village"},
+          {"@type": "Neighborhood", "name": "Little Australia"},
+          {"@type": "Neighborhood", "name": "Lower East Side"},
+          {"@type": "Neighborhood", "name": "NoHo"},
+          {"@type": "Neighborhood", "name": "South Village"},
+          {"@type": "Neighborhood", "name": "Two Bridges"},
+          {"@type": "Neighborhood", "name": "West Village"},
+          {"@type": "Neighborhood", "name": "Chinatown"},
+          {"@type": "Neighborhood", "name": "Civic Center"},
+          {"@type": "Neighborhood", "name": "Financial District"},
+          {"@type": "Neighborhood", "name": "Hudson Square"},
+          {"@type": "Neighborhood", "name": "Little Italy"},
+          {"@type": "Neighborhood", "name": "Meatpacking District"},
+          {"@type": "Neighborhood", "name": "Nolita"},
+          {"@type": "Neighborhood", "name": "SoHo"},
+          {"@type": "Neighborhood", "name": "South Street Seaport"},
+          {"@type": "Neighborhood", "name": "Tribeca"},
+          {"@type": "Neighborhood", "name": "World Trade Center"},
+          {"@type": "Neighborhood", "name": "Chelsea"},
+          {"@type": "Neighborhood", "name": "Columbus Circle"},
+          {"@type": "Neighborhood", "name": "Diamond District"},
+          {"@type": "Neighborhood", "name": "Flatiron District"},
+          {"@type": "Neighborhood", "name": "Garment District"},
+          {"@type": "Neighborhood", "name": "Gramercy"},
+          {"@type": "Neighborhood", "name": "Herald Square"},
+          {"@type": "Neighborhood", "name": "Hudson Yards"},
+          {"@type": "Neighborhood", "name": "Hell's Kitchen"},
+          {"@type": "Neighborhood", "name": "Kips Bay"},
+          {"@type": "Neighborhood", "name": "Koreatown"},
+          {"@type": "Neighborhood", "name": "Madison Square"},
+          {"@type": "Neighborhood", "name": "Midtown"},
+          {"@type": "Neighborhood", "name": "Midtown East"},
+          {"@type": "Neighborhood", "name": "Midtown West"},
+          {"@type": "Neighborhood", "name": "Murray Hill"},
+          {"@type": "Neighborhood", "name": "NoMad"},
+          {"@type": "Neighborhood", "name": "Theater District"},
+          {"@type": "Neighborhood", "name": "Times Square"},
+          {"@type": "Neighborhood", "name": "Tudor City"},
+          {"@type": "Neighborhood", "name": "Turtle Bay"},
+          {"@type": "Neighborhood", "name": "Union Square"},
+          {"@type": "Neighborhood", "name": "Lenox Hill"},
+          {"@type": "Neighborhood", "name": "Sutton Place"},
+          {"@type": "Neighborhood", "name": "Carnegie Hill"},
+          {"@type": "Neighborhood", "name": "Lincoln Square"},
+          {"@type": "Neighborhood", "name": "Manhattan Valley"},
+          {"@type": "Neighborhood", "name": "Upper East Side"},
+          {"@type": "Neighborhood", "name": "Upper West Side"},
+          {"@type": "Neighborhood", "name": "Yorkville"},
+          {"@type": "Neighborhood", "name": "East Harlem"},
+          {"@type": "Neighborhood", "name": "Hamilton Heights"},
+          {"@type": "Neighborhood", "name": "Harlem"},
+          {"@type": "Neighborhood", "name": "Hudson Heights"},
+          {"@type": "Neighborhood", "name": "Inwood"},
+          {"@type": "Neighborhood", "name": "Manhattanville"},
+          {"@type": "Neighborhood", "name": "Morningside Heights"},
+          {"@type": "Neighborhood", "name": "Washington Heights"},
+          {"@type": "Neighborhood", "name": "Roosevelt Island"}
+    ]
+  },
+      {"@type": "AdministrativeArea", "name": "Manhattan", "alternateName":
+   "New York County"},
+      {"@type": "AdministrativeArea", "name": "Brooklyn", "alternateName":
+  "Kings County"},
+      {"@type": "AdministrativeArea", "name": "Queens", "alternateName":
+  "Queens County"},
+      {"@type": "AdministrativeArea", "name": "Bronx", "alternateName":
+  "Bronx County"},
+      {"@type": "AdministrativeArea", "name": "Staten Island",
   "alternateName": "Richmond County"}
-            ]
-          }
+    ]
+  }
         ],
         "serviceArea": {
           "@type": "GeoCircle",

@@ -1,0 +1,636 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.buildingsecurity.com/#organization",
+      "name": "Building Security Services, Inc.",
+      "url": "https://www.buildingsecurity.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://buildingsecurity.b-cdn.net/wp-content/uploads/2021/03/BSS_logo-header.png"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://buildingsecurity.b-cdn.net/wp-content/uploads/2021/03/BSS_logo-header.png"
+      },
+      "telephone": "+1-973-414-1111",
+      "email": "info@buildingsecurity.com",
+      "sameAs": [
+        "https://www.linkedin.com/company/building-security-services",
+        "https://www.facebook.com/p/Building-Security-Services-100041575101229/",
+        "https://www.youtube.com/@buildingsecurity"
+      ],
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "customer service",
+          "telephone": "+1-973-414-1111",
+          "areaServed": [
+            { "@type": "State", "name": "New Jersey", "alternateName": "NJ" },
+            { "@type": "State", "name": "New York", "alternateName": "NY" }
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.buildingsecurity.com/#website",
+      "url": "https://www.buildingsecurity.com/",
+      "name": "Building Security Services",
+      "publisher": {
+        "@id": "https://www.buildingsecurity.com/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.buildingsecurity.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": ["ProfessionalService", "LocalBusiness"],
+      "@id": "https://www.buildingsecurity.com/#localbusiness-nj",
+      "name": "Building Security Services — New Jersey Headquarters",
+      "url": "https://www.buildingsecurity.com/",
+      "branchOf": {
+        "@id": "https://www.buildingsecurity.com/#organization"
+      },
+      "priceRange": "$$$",
+      "telephone": "+1-973-414-1111",
+      "email": "info@buildingsecurity.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "20 Valley St #340",
+        "addressLocality": "South Orange",
+        "addressRegion": "NJ",
+        "postalCode": "07079",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        { "@type": "State", "name": "New Jersey", "alternateName": "NJ" }
+      ],
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://buildingsecurity.b-cdn.net/wp-content/uploads/2021/03/BSS_logo-header.png"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://buildingsecurity.b-cdn.net/wp-content/uploads/2021/03/BSS_logo-header.png"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7449967,
+        "longitude": -74.3986175
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+          "opens": "08:30",
+          "closes": "17:00"
+        }
+      ]
+    },
+    {
+      "@type": ["ProfessionalService", "LocalBusiness"],
+      "@id": "https://www.buildingsecurity.com/nyc/#localbusiness",
+      "name": "Building Security Services — New York City",
+      "url": "https://www.buildingsecurity.com/nyc/",
+      "branchOf": {
+        "@id": "https://www.buildingsecurity.com/#organization"
+      },
+      "priceRange": "$$$",
+      "telephone": "+1-973-414-1111",
+      "email": "info@buildingsecurity.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "231 West 29th Street, 8th Floor",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10001",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "New York City",
+          "containedInPlace": {
+            "@type": "State",
+            "name": "New York",
+            "alternateName": "NY"
+          }
+        }
+      ],
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://buildingsecurity.b-cdn.net/wp-content/uploads/2021/03/BSS_logo-header.png"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://buildingsecurity.b-cdn.net/wp-content/uploads/2021/03/BSS_logo-header.png"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7484925,
+        "longitude": -73.9967593
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+          "opens": "08:30",
+          "closes": "17:00"
+        }
+      ]
+    }
+  ]
+}
+</script>
+<script>
+(function() {
+  // ========================
+  // CONFIG & CONSTANTS
+  // ========================
+  const ORG_ID   = "https://www.buildingsecurity.com/#organization";
+  const NJ_LBID  = "https://www.buildingsecurity.com/#localbusiness-nj";
+  const NYC_LBID = "https://www.buildingsecurity.com/nyc/#localbusiness";
+
+  // Assets and contact data
+  const LOGO_URL        = "https://buildingsecurity.b-cdn.net/wp-content/uploads/2021/03/BSS_logo-header.png";
+  const ORG_IMAGE_URL   = ""; // optional brand/office image; leave blank to omit
+  const GBP_NJ_MAP_URL  = "https://maps.google.com/maps?cid=7683426725415711878";
+  const GBP_NYC_MAP_URL = "https://maps.google.com/maps?cid=16696044469380225550";
+  const GEO_NJ  = { lat: 40.7449967, lng: -74.3986175 };
+  const GEO_NYC = { lat: 40.7484925, lng: -73.9967593 };
+  const ORG_EMAIL = "info@buildingsecurity.com";
+  const PRICE_RANGE = "$$$";
+  const SAME_AS = [
+    "https://www.linkedin.com/company/building-security-services",
+    "https://www.facebook.com/p/Building-Security-Services-100041575101229/",
+    "https://www.youtube.com/@buildingsecurity"
+  ];
+
+  // Shared hours (Mo–Fr 08:30–17:00)
+  const HOURS_WEEKDAY = {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "08:30",
+    "closes": "17:00"
+  };
+
+  // Preserve real slug case for emitted URLs; keep lowercased copy for matching
+  const RAW_PATH = location.pathname.endsWith("/") ? location.pathname : (location.pathname + "/");
+  const PATH     = RAW_PATH.toLowerCase();
+
+  // ========================
+  // PAGE MAPS
+  // ========================
+  const townNJ = {
+    "/south-orange-nj/": "South Orange",
+    "/east-orange-nj/":  "East Orange",
+    "/orange-nj/":       "Orange",
+    "/maplewood-nj/":    "Maplewood",
+    "/livingston-nj/":   "Livingston",
+    "/parsippany/":      "Parsippany",
+    "/secaucus/":        "Secaucus",
+    "/summit/":          "Summit",
+    "/newark/":          "Newark",
+    "/jersey-city/":     "Jersey City"
+  };
+
+  // Boroughs with county alt names where applicable
+  const boroughNYC = {
+    "/bronx/":         { name: "Bronx" }, // Bronx County
+    "/brooklyn/":      { name: "Brooklyn",  alt: "Kings County" },
+    "/queens/":        { name: "Queens",    alt: "Queens County" },
+    "/manhattan/":     { name: "Manhattan", alt: "New York County" },
+    "/staten-island/": { name: "Staten Island", alt: "Richmond County" }
+  };
+
+  // Core service pages (sitewide) and their canonical serviceType labels
+  const servicePages = new Map([
+    ["/access-control/",                        "Access control systems"],
+    ["/access-control/openpath/",               "Openpath access control"],
+    ["/door-access-control-system/",            "Door access control systems"],
+    ["/intercom-systems/",                      "Intercom systems"],
+    ["/intrusion-burglar-alarms-detection/",    "Intrusion and burglar alarm systems"],
+    ["/central-station-monitoring/",            "Central station monitoring"],
+    ["/video-surveillance-systems/",            "Video surveillance systems"],
+    ["/video-surveillance-systems/cctv/",       "CCTV installation"],
+    ["/video-surveillance-systems/ip-cameras/", "IP camera systems"],
+    ["/systems-integration/",                   "Security systems integration"],
+    ["/turnstiles/",                            "Turnstiles and entry control"],
+    ["/security-personnel/",                    "Security guard services"],
+    ["/armed-guard-service/",                   "Armed security guards"],
+    ["/unarmed-services/",                      "Unarmed security guards"],
+    ["/patrol-services/",                       "Security patrol services"],
+    ["/concierge-doorman-services/",            "Concierge and doorman security"],
+    ["/cabling-data-voice-services/",           "Low-voltage cabling (data/voice)"],
+    ["/consulting/",                            "Security consulting"],
+    ["/fire-life-safety-directors/",            "Fire & life safety directors"],
+    ["/fire-life-safety-systems/",              "Fire and life safety systems"],
+    ["/emergency-action-plan-directors/",       "Emergency action plan directors"],
+    ["/residential-security-services/",         "Residential security services"],
+    ["/commercial-alarm-company-nj/",           "Commercial alarm company"],
+    ["/access-control/nj/",                     "Access control systems (NJ)"]
+  ]);
+
+  // Industry pages with serviceType labels
+  const industryPages = new Map([
+    ["/hospital-security-services/",               "Hospital security"],
+    ["/pharmaceutical-security-services/",         "Pharmaceutical security"],
+    ["/manufacturing-security-services/",          "Manufacturing facility security"],
+    ["/chemical-plant-security-services/",         "Chemical plant security"],
+    ["/warehouse-security-services/",              "Warehouse security"],
+    ["/financial-security-services/",              "Financial institution security"],
+    ["/commercial-real-estate-security-services/", "Commercial real estate security"],
+    ["/retail-security-services/",                 "Retail security"],
+    ["/mall-security-services/",                   "Mall security"],
+    ["/education-security-services/",              "Education security"],
+    ["/k-12-security-services/",                   "K–12 school security"],
+    ["/college-security-services/",                "College and university security"],
+    ["/government-security-services/",             "Government facility security"],
+    ["/defense-security-services/",                "Defense and military security"],
+    ["/airport-security-services/",                "Airport security"],
+    ["/port-security-services/",                   "Port and maritime security"],
+    ["/hotel-security-services/",                  "Hotel security"],
+    ["/event-security-services/",                  "Event security"],
+    ["/stadium-security-services/",                "Stadium security"],
+    ["/construction-security-services/",           "Construction site security"],
+    ["/dispensary-security-services/",             "Cannabis dispensary security"]
+  ]);
+
+  // NYC-specific service pages
+  const nycServicePages = new Map([
+    ["/nyc/armed-security/", "Armed security guards (NYC)"],
+    ["/nyc/private/",        "Private security services (NYC)"]
+  ]);
+
+  // NJ-only service slugs (restrict areaServed to NJ)
+  const njOnly = new Set([
+    "/access-control/nj/",
+    "/commercial-alarm-company-nj/"
+  ]);
+
+  // Pages where no schema is emitted; removed /about-us/ and /history/ so base schema stays on those pages
+  const skipPages = new Set([
+    "/privacy/","/terms-of-service/","/sitemap/",
+    "/contact-ty/","/rfq-ty/","/request-information/","/openings/","/careers/","/careers/job-application/",
+    "/around-the-web/","/author/josephferdinando/","/locations/","/systems/","/industry-expertise/",
+    "/resource-center/","/resource-center/videos/aiphone/","/resource-center/videos/alarmcom/","/resource-center/videos/brivo/",
+    "/resource-center/videos/comelit/","/resource-center/videos/digital-watchdog/","/resource-center/videos/hikvision/",
+    "/resource-center/videos/kantech/","/resource-center/videos/openpath/","/founder-joseph-ferdinando.html"
+  ]);
+
+  // ========================
+  // UTILS
+  // ========================
+  function $meta(sel) { const el = document.querySelector(sel); return el ? el.getAttribute("content") : ""; }
+  function title()     { return document.title ? document.title.trim() : ""; }
+  function desc()      { return $meta("meta[name='description']") || ""; }
+  function ogimg()     { return $meta("meta[property='og:image']") || ""; }
+  function pubDate()   { return $meta("meta[property='article:published_time']") || ""; }
+  function modDate()   { return $meta("meta[property='article:modified_time']") || ""; }
+  function articleSec(){ return $meta("meta[property='article:section']") || ""; }
+  function alreadyInjected(marker) { return !!document.querySelector(`script[type="application/ld+json"][data-bss="${marker}"]`); }
+
+  function clean(obj) {
+    if (!obj || typeof obj !== "object") return obj;
+    Object.keys(obj).forEach(k => {
+      const v = obj[k];
+      if (v === undefined || v === null || v === "" || (Array.isArray(v) && v.filter(Boolean).length === 0)) {
+        delete obj[k];
+      } else if (typeof v === "object" && !Array.isArray(v)) {
+        clean(v);
+        if (Object.keys(v).length === 0) delete obj[k];
+      } else if (Array.isArray(v)) {
+        obj[k] = v.map(clean).filter(e => e && (typeof e !== "object" || Object.keys(e).length > 0));
+        if (obj[k].length === 0) delete obj[k];
+      }
+    });
+    return obj;
+  }
+
+  function inject(obj, id){
+    if (!obj || alreadyInjected(id)) return;
+    try {
+      const s = document.createElement("script");
+      s.type = "application/ld+json";
+      s.setAttribute("data-bss", id);
+      s.textContent = JSON.stringify(clean(obj));
+      document.head.appendChild(s);
+    } catch(e){}
+  }
+
+  // Common areaServed helpers
+  const AREA_NJ  = [{ "@type":"State","name":"New Jersey","alternateName":"NJ"}];
+  const AREA_NY  = [{ "@type":"State","name":"New York","alternateName":"NY"}];
+  const AREA_BI  = AREA_NJ.concat(AREA_NY);
+  const AREA_NYC = [{ "@type":"City","name":"New York City","containedInPlace":{"@type":"State","name":"New York","alternateName":"NY"}}];
+
+  // ========================
+  // CATALOG HELPERS (hasOfferCatalog)
+  // ========================
+  function offerForServiceId(serviceId) {
+    return {
+      "@type": "Offer",
+      "itemOffered": { "@type": "Service", "@id": serviceId }
+    };
+  }
+
+  function catalog(name, serviceIds) {
+    return {
+      "@type": "OfferCatalog",
+      "name": name,
+      "itemListElement": serviceIds.map(offerForServiceId)
+    };
+  }
+
+  const TOP_CORE_SERVICE_SLUGS = [
+    "/security-personnel/",
+    "/armed-guard-service/",
+    "/unarmed-services/",
+    "/patrol-services/",
+    "/access-control/",
+    "/video-surveillance-systems/",
+    "/intercom-systems/",
+    "/central-station-monitoring/",
+    "/systems-integration/"
+  ];
+
+  const TOP_CORE_SERVICE_IDS = TOP_CORE_SERVICE_SLUGS.map(slug => location.origin + slug + "#service");
+  const TOP_NYC_EXTRAS_IDS = [
+    location.origin + "/nyc/armed-security/#service",
+    location.origin + "/nyc/private/#service"
+  ];
+
+  // ========================
+  // BUILDERS
+  // ========================
+  function websiteNode() {
+    return {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://www.buildingsecurity.com/#website",
+      "url": "https://www.buildingsecurity.com/",
+      "name": "Building Security Services",
+      "publisher": { "@id": ORG_ID },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.buildingsecurity.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    };
+  }
+
+  function organizationNode() {
+    // always set logo as default image
+    const logo = LOGO_URL || ogimg();
+    return {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": ORG_ID,
+      "name": "Building Security Services, Inc.",
+      "url": "https://www.buildingsecurity.com/",
+      "email": ORG_EMAIL || undefined,
+      "telephone": "+1-973-414-1111",
+      "logo": logo ? { "@type":"ImageObject", "url": logo } : undefined,
+      "image": logo ? { "@type":"ImageObject", "url": logo } : undefined,
+      "sameAs": SAME_AS.filter(Boolean),
+      "areaServed": AREA_BI,
+      "contactPoint": [{
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "telephone": "+1-973-414-1111",
+        "areaServed": AREA_BI
+      }]
+    };
+  }
+
+  function localBusinessNJ() {
+    return {
+      "@context": "https://schema.org",
+      "@type": ["ProfessionalService", "LocalBusiness"],
+      "@id": NJ_LBID,
+      "name": "Building Security Services — New Jersey Headquarters",
+      "url": "https://www.buildingsecurity.com/",
+      "branchOf": { "@id": ORG_ID },
+      "priceRange": PRICE_RANGE,
+      "telephone": "+1-973-414-1111",
+      "email": ORG_EMAIL || undefined,
+      "address": {
+        "@type":"PostalAddress",
+        "streetAddress":"20 Valley St #340",
+        "addressLocality":"South Orange",
+        "addressRegion":"NJ",
+        "postalCode":"07079",
+        "addressCountry":"US"
+      },
+      "areaServed": AREA_NJ,
+      "image": LOGO_URL ? { "@type":"ImageObject", "url": LOGO_URL } : undefined,
+      "logo": { "@type":"ImageObject", "url": LOGO_URL },
+      "hasMap": GBP_NJ_MAP_URL || undefined,
+      "geo": (GEO_NJ.lat && GEO_NJ.lng) ? { "@type":"GeoCoordinates","latitude":GEO_NJ.lat,"longitude":GEO_NJ.lng } : undefined,
+      "openingHoursSpecification": [ HOURS_WEEKDAY ],
+      "hasOfferCatalog": [ catalog("Top Security Services (NJ)", TOP_CORE_SERVICE_IDS) ]
+    };
+  }
+
+  function localBusinessNYC() {
+    return {
+      "@context": "https://schema.org",
+      "@type": ["ProfessionalService", "LocalBusiness"],
+      "@id": NYC_LBID,
+      "name": "Building Security Services — New York City",
+      "url": "https://www.buildingsecurity.com/nyc/",
+      "branchOf": { "@id": ORG_ID },
+      "priceRange": PRICE_RANGE,
+      "telephone": "+1-973-414-1111",
+      "email": ORG_EMAIL || undefined,
+      "address": {
+        "@type":"PostalAddress",
+        "streetAddress":"231 West 29th Street, 8th Floor",
+        "addressLocality":"New York",
+        "addressRegion":"NY",
+        "postalCode":"10001",
+        "addressCountry":"US"
+      },
+      "areaServed": AREA_NYC,
+      "image": LOGO_URL ? { "@type":"ImageObject", "url": LOGO_URL } : undefined,
+      "logo": { "@type":"ImageObject", "url": LOGO_URL },
+      "hasMap": GBP_NYC_MAP_URL || undefined,
+      "geo": (GEO_NYC.lat && GEO_NYC.lng) ? { "@type":"GeoCoordinates","latitude":GEO_NYC.lat,"longitude":GEO_NYC.lng } : undefined,
+      "openingHoursSpecification": [ HOURS_WEEKDAY ],
+      "hasOfferCatalog": [ catalog("Top Security Services (NYC)", TOP_CORE_SERVICE_IDS.concat(TOP_NYC_EXTRAS_IDS)) ]
+    };
+  }
+
+  // Build a correctly-typed provider object from an ID
+  function providerFor(id) {
+    const type = (id === ORG_ID) ? "Organization" : "LocalBusiness";
+    return { "@type": type, "@id": id };
+  }
+
+  function serviceNode(name, url, areaServedArray, providerId, serviceType) {
+    // Fallback: use serviceType as name if no title
+    const n = (name || title() || serviceType || "").trim();
+    const d = desc().trim() || undefined;
+    const obj = {
+      "@context":"https://schema.org",
+      "@type":"Service",
+      "@id": url.replace(/#.*$/,"") + "#service",
+      "name": n || undefined,
+      "url":  url,
+      "description": d || undefined,
+      "serviceType": serviceType || undefined,
+      "provider": providerFor(providerId || ORG_ID),
+      "areaServed": areaServedArray
+    };
+    return obj;
+  }
+
+  function blogPosting() {
+    const pageUrl = location.href.split("#")[0];
+    const hd = title();
+    const de = desc();
+    const im = ogimg() || LOGO_URL;
+    const pub = pubDate();
+    const mod = modDate() || pub;
+    const sec = articleSec();
+
+    const obj = {
+      "@context":"https://schema.org",
+      "@type":"BlogPosting",
+      "@id": pageUrl + "#blogPosting",
+      "mainEntityOfPage": {"@type":"WebPage","@id": pageUrl},
+      "headline": hd || undefined,
+      "description": de || undefined,
+      "inLanguage": "en",
+      "articleSection": sec || undefined,
+      "author": {"@type":"Organization","@id": ORG_ID},
+      "publisher": {"@type":"Organization","@id": ORG_ID}
+    };
+    if (im) obj.image = [{ "@type":"ImageObject", "url": im }];
+    if (pub) obj.datePublished = new Date(pub).toISOString();
+    if (mod) obj.dateModified  = new Date(mod).toISOString();
+    return obj;
+  }
+
+  // ========================
+  // ROUTER
+  // ========================
+
+  // Respect skip list
+  if (skipPages.has(PATH)) return;
+
+  // Always inject core site nodes
+  inject(websiteNode(), "website");
+  inject(organizationNode(), "org");
+
+  // Homepage: emphasize NJ HQ
+  if (PATH === "/") {
+    inject(localBusinessNJ(), "lb-nj");
+    return;
+  }
+
+  // NYC location page
+  if (PATH === "/nyc/") {
+    inject(localBusinessNYC(), "lb-nyc");
+    return;
+  }
+
+  // NJ town pages (Service with city; provider = NJ LocalBusiness)
+  if (townNJ[PATH]) {
+    const city = townNJ[PATH];
+    inject(
+      serviceNode(
+        `Security Services in ${city}, New Jersey`,
+        location.origin + RAW_PATH,
+        [{ "@type":"City", "name": city, "containedInPlace": { "@type":"State","name": "New Jersey","alternateName":"NJ" } }],
+        NJ_LBID,
+        "Security guard and systems services"
+      ),
+      "svc-town-nj"
+    );
+    return;
+  }
+
+  // NYC borough pages (Service with borough; provider = NYC LocalBusiness)
+  if (boroughNYC[PATH]) {
+    const b = boroughNYC[PATH]; // {name, alt?}
+    const adminArea = {
+      "@type": "AdministrativeArea",
+      "name": b.name,
+      ...(b.alt ? { "alternateName": b.alt } : {}),
+      "containedInPlace": { "@type":"State","name":"New York","alternateName":"NY" }
+    };
+    inject(
+      serviceNode(
+        `Security Services in ${b.name}, New York`,
+        location.origin + RAW_PATH,
+        [ adminArea ],
+        NYC_LBID,
+        "Security guard and systems services"
+      ),
+      "svc-borough-nyc"
+    );
+    return;
+  }
+
+  // NYC-specific service pages (provider = NYC LocalBusiness; area = NYC)
+  if (nycServicePages.has(PATH)) {
+    inject(
+      serviceNode(
+        title(),
+        location.origin + RAW_PATH,
+        AREA_NYC,
+        NYC_LBID,
+        nycServicePages.get(PATH)
+      ),
+      "svc-nyc"
+    );
+    return;
+  }
+
+  // Core service pages (area: NJ only or bi-state)
+  if (servicePages.has(PATH)) {
+    const isNJOnly = njOnly.has(PATH);
+    const areas = isNJOnly ? AREA_NJ : AREA_BI;
+    inject(
+      serviceNode(
+        title(),
+        location.origin + RAW_PATH,
+        areas,
+        ORG_ID, // bi-state services point to org; location pages point to branch IDs
+        servicePages.get(PATH)
+      ),
+      "svc-core"
+    );
+    return;
+  }
+
+  // Industry pages (bi-state)
+  if (industryPages.has(PATH)) {
+    inject(
+      serviceNode(
+        title(),
+        location.origin + RAW_PATH,
+        AREA_BI,
+        ORG_ID,
+        industryPages.get(PATH)
+      ),
+      "svc-industry"
+    );
+    return;
+  }
+
+  // Blog posts
+  if (PATH.startsWith("/blog/") && PATH !== "/blog/") {
+    inject(blogPosting(), "blog-post");
+    return;
+  }
+
+  // Everything else: rely on WebSite + Organization only
+})();
+</script>

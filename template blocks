@@ -1,0 +1,534 @@
+GLOBAL:
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.buildingsecurity.com/#organization",
+      "name": "Building Security Services, Inc.",
+      "alternateName": "BSS",
+      "legalName": "Building Security Services, Inc.",
+      "url": "https://www.buildingsecurity.com/",
+      "description": "Family-owned security company with 40+ years of experience providing professional guards, systems integration, access control, video surveillance and specialized services across New Jersey and New York.",
+      "slogan": "Elevating Security Standards – Your Trusted Partner in Protection",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://www.buildingsecurity.com/#logo",
+        "url": "https://buildingsecurity.b-cdn.net/wp-content/uploads/2021/03/BSS_logo-header.png",
+        "contentUrl": "https://buildingsecurity.b-cdn.net/wp-content/uploads/2021/03/BSS_logo-header.png",
+        "width": 200,
+        "height": 80,
+        "caption": "Building Security Services Logo"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "@id": "https://www.buildingsecurity.com/#logo",
+        "url": "https://buildingsecurity.b-cdn.net/wp-content/uploads/2021/03/BSS_logo-header.png",
+        "width": 200,
+        "height": 80
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/building-security-services",
+        "https://www.facebook.com/p/Building-Security-Services-100041575101229/",
+        "https://www.youtube.com/@buildingsecurity"
+      ],
+      "foundingDate": "1982",
+      "founder": {
+        "@type": "Person",
+        "name": "Joseph Ferdinando",
+        "url": "https://www.buildingsecurity.com/founder-joseph-ferdinando.html"
+      },
+      "telephone": "+1-973-414-1111",
+      "email": "info@buildingsecurity.com",
+      "address": [
+        {
+          "@type": "PostalAddress",
+          "@id": "https://www.buildingsecurity.com/#address-nj",
+          "streetAddress": "20 Valley St #340",
+          "addressLocality": "South Orange",
+          "addressRegion": "NJ",
+          "postalCode": "07079",
+          "addressCountry": "US"
+        },
+        {
+          "@type": "PostalAddress",
+          "@id": "https://www.buildingsecurity.com/#address-ny",
+          "streetAddress": "231 West 29th Street, 8th Floor",
+          "addressLocality": "New York",
+          "addressRegion": "NY",
+          "postalCode": "10001",
+          "addressCountry": "US"
+        }
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "telephone": "+1-973-414-1111",
+        "email": "info@buildingsecurity.com",
+        "availableLanguage": "English",
+        "hoursAvailable": [{
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+        }]
+      },
+      "areaServed": [
+        { "@type": "State", "name": "New Jersey", "alternateName": "NJ" },
+        { "@type": "State", "name": "New York",  "alternateName": "NY" }
+      ],
+      "knowsAbout": [
+        "Security Guard Services",
+        "Access Control Systems",
+        "Video Surveillance",
+        "Systems Integration",
+        "Commercial Security",
+        "Residential Security"
+      ],
+      "naics": "561612",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.3,
+        "reviewCount": 162
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.buildingsecurity.com/#website",
+      "url": "https://www.buildingsecurity.com/",
+      "name": "Building Security Services",
+      "alternateName": "BSS Website",
+      "description": "Professional security services in New Jersey and New York",
+      "inLanguage": "en-US",
+      "publisher": { "@id": "https://www.buildingsecurity.com/#organization" },
+      "potentialAction": [{
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.buildingsecurity.com/?s={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }]
+    }
+  ]
+}
+</script>
+
+################################################################################################################################################################################################################################################################################################################################
+NJ LOCAL BUSINESS:
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["ProfessionalService","LocalBusiness"],
+  "@id": "https://www.buildingsecurity.com/#localbusiness-nj",
+  "name": "Building Security Services — New Jersey Headquarters",
+  "alternateName": "BSS New Jersey",
+  "url": "https://www.buildingsecurity.com/",
+  "description": "Headquarters in South Orange, NJ providing armed & unarmed guards, patrols, access-control, video surveillance, systems integration and life-safety directors across the Garden State.",
+  "branchOf": { "@id": "https://www.buildingsecurity.com/#organization" },
+
+  "logo": {
+    "@type": "ImageObject",
+    "@id": "https://www.buildingsecurity.com/#logo",
+    "url": "https://buildingsecurity.b-cdn.net/wp-content/uploads/2021/03/BSS_logo-header.png",
+    "width": 200,
+    "height": 80
+  },
+  "image": { "@id": "https://www.buildingsecurity.com/#logo" },
+
+  "priceRange": "$$",
+  "telephone": "+1-973-414-1111",
+  "email": "info@buildingsecurity.com",
+
+  "address": {
+    "@type": "PostalAddress",
+    "@id": "https://www.buildingsecurity.com/#address-nj",
+    "streetAddress": "20 Valley St #340",
+    "addressLocality": "South Orange",
+    "addressRegion": "NJ",
+    "postalCode": "07079",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 40.7449967,
+    "longitude": -74.3986175
+  },
+  "hasMap": "https://maps.google.com/maps?cid=7683426725415711878",
+  "sameAs": [
+    "https://maps.google.com/maps?cid=7683426725415711878"
+  ],
+
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "00:00",
+    "closes": "23:59"
+  }],
+
+  "paymentAccepted": ["Cash","Credit Card","Check","Invoice","ACH"],
+  "currenciesAccepted": "USD",
+
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.0,
+    "reviewCount": 74
+  },
+
+  "review": [
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Marco Solano" },
+      "reviewRating": { "@type": "Rating", "ratingValue": 5 },
+      "reviewBody": "Our buildings are guarded by BSS—courteous, responsive and a one-stop shop for guards and integrated video surveillance."
+    },
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Monica Delgado" },
+      "reviewRating": { "@type": "Rating", "ratingValue": 5 },
+      "reviewBody": "Reliable, knowledgeable and very professional. I would highly recommend them for all your security needs."
+    }
+  ],
+
+  "areaServed": [{
+    "@type": "State",
+    "name": "New Jersey",
+    "alternateName": "NJ"
+  }],
+
+  "serviceArea": {
+    "@type": "GeoCircle",
+    "geoMidpoint": { "@type": "GeoCoordinates", "latitude": 40.7449967, "longitude": -74.3986175 },
+    "geoRadius": 25
+  },
+
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "contactType": "customer service",
+    "telephone": "+1-973-414-1111",
+    "email": "info@buildingsecurity.com",
+    "availableLanguage": ["English","Spanish"],
+    "hoursAvailable": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "00:00",
+      "closes": "23:59"
+    }],
+    "areaServed": "NJ"
+  }],
+
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Security Services — New Jersey",
+    "itemListElement": [
+      {
+        "@type": "OfferCatalog",
+        "name": "Security Guard Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Armed Security Guards (NJ)",
+              "serviceType": "Armed Guards",
+              "description": "Licensed armed guards for corporate campuses, healthcare and high-value sites."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Unarmed Security Guards (NJ)",
+              "serviceType": "Unarmed Guards",
+              "description": "Professional uniformed personnel for offices, residential communities and schools."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Security Patrol Services",
+              "serviceType": "Mobile Patrol",
+              "description": "Marked vehicle and foot patrols for large properties and construction sites."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Fire & Life Safety Directors (NJ)",
+              "serviceType": "Fire & Life Safety Directors",
+              "description": "Certified FLSD personnel to oversee compliance and emergency procedures."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "Electronic Security Systems",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Access Control Systems",
+              "serviceType": "Access Control",
+              "description": "Design, installation and monitoring of cloud and on-prem access solutions."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Video Surveillance Systems",
+              "serviceType": "Video Surveillance",
+              "description": "CCTV and IP-camera systems with 24/7 monitoring."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Intrusion & Burglar Alarm Systems",
+              "serviceType": "Alarm Systems",
+              "description": "UL-listed intrusion detection with central-station monitoring."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Security Systems Integration",
+              "serviceType": "Systems Integration",
+              "description": "Unified platform tying together alarms, cameras, access control and analytics."
+            }
+          }
+        ]
+      }
+    ]
+  },
+
+  "knowsAbout": [
+    "Security Guard Services",
+    "Mobile Patrol",
+    "Access Control",
+    "Video Surveillance",
+    "Alarm Systems",
+    "Systems Integration",
+    "Fire & Life Safety Directors"
+  ],
+
+  "slogan": "New Jersey’s Trusted Security Partner",
+
+  "makesOffer": [{
+    "@type": "Offer",
+    "name": "Free Security Assessment",
+    "description": "Complimentary on-site security evaluation",
+    "price": 0,
+    "priceCurrency": "USD"
+  }]
+}
+</script>
+
+
+
+################################################################################################################################################################################################################################################################################################################################
+
+NYC SCHEMA:
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["ProfessionalService","LocalBusiness"],
+  "@id": "https://www.buildingsecurity.com/nyc/#localbusiness",
+  "name": "Building Security Services — New York City",
+  "alternateName": "BSS NYC",
+  "url": "https://www.buildingsecurity.com/nyc/",
+  "description": "Full-service security provider in Midtown Manhattan offering armed & unarmed guards, access control, video surveillance, systems integration and life-safety directors across New York City.",
+  "branchOf": { "@id": "https://www.buildingsecurity.com/#organization" },
+
+  "logo": {
+    "@type": "ImageObject",
+    "@id": "https://www.buildingsecurity.com/#logo",
+    "url": "https://buildingsecurity.b-cdn.net/wp-content/uploads/2021/03/BSS_logo-header.png",
+    "width": 200,
+    "height": 80
+  },
+  "image": { "@id": "https://www.buildingsecurity.com/#logo" },
+
+  "priceRange": "$$",
+  "telephone": "+1-973-414-1111",
+  "email": "info@buildingsecurity.com",
+
+  "address": {
+    "@type": "PostalAddress",
+    "@id": "https://www.buildingsecurity.com/#address-ny",
+    "streetAddress": "231 West 29th Street, 8th Floor",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10001",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 40.7484925,
+    "longitude": -73.9967593
+  },
+  "hasMap": "https://maps.google.com/maps?cid=16696044469380225550",
+  "sameAs": [
+    "https://maps.google.com/maps?cid=16696044469380225550"
+  ],
+
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "00:00",
+    "closes": "23:59"
+  }],
+
+  "paymentAccepted": ["Cash","Credit Card","Check","Invoice","ACH"],
+  "currenciesAccepted": "USD",
+
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": 4.5, "reviewCount": 88 },
+
+  "review": [
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Jose Rosario" },
+      "reviewRating": { "@type": "Rating", "ratingValue": 5 },
+      "reviewBody": "This company is highly efficient and professional. Great communication and working relationship."
+    },
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Yolanda Cintron" },
+      "reviewRating": { "@type": "Rating", "ratingValue": 5 },
+      "reviewBody": "Our company has had the pleasure of utilizing the services of BSS for over two years and the service is excellent. I can always count on them for emergency coverage and professional customer service. Their guards have been a great addition to our buildings."
+    }
+  ],
+
+  "areaServed": [{
+    "@type": "City",
+    "name": "New York City",
+    "containedInPlace": { "@type": "State", "name": "New York", "alternateName": "NY" }
+  }],
+  "serviceArea": {
+    "@type": "GeoCircle",
+    "geoMidpoint": { "@type": "GeoCoordinates", "latitude": 40.7484925, "longitude": -73.9967593 },
+    "geoRadius": 15
+  },
+
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "contactType": "customer service",
+    "telephone": "+1-973-414-1111",
+    "email": "info@buildingsecurity.com",
+    "availableLanguage": ["English","Spanish"],
+    "hoursAvailable": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "00:00",
+      "closes": "23:59"
+    }],
+    "areaServed": "NYC"
+  }],
+
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Security Services — New York City",
+    "itemListElement": [
+      {
+        "@type": "OfferCatalog",
+        "name": "Security Guard Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Armed Security Guards (NYC)",
+              "serviceType": "Armed Guards",
+              "description": "Licensed armed guards for corporate sites, high-end retail and special events."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Unarmed Security Guards (NYC)",
+              "serviceType": "Unarmed Guards",
+              "description": "Customer-oriented personnel for lobbies, residential buildings and schools."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Fire & Life Safety Directors (NYC)",
+              "serviceType": "Fire & Life Safety Directors",
+              "description": "Certified FLSD personnel to oversee emergency action plans and life-safety compliance."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "Electronic Security Systems",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Access Control Systems",
+              "serviceType": "Access Control",
+              "description": "Cloud-based and on-prem access solutions using Openpath, Lenel and Brivo."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Video Surveillance Systems",
+              "serviceType": "Video Surveillance",
+              "description": "Design, installation and monitoring of CCTV and IP cameras."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Systems Integration",
+              "serviceType": "Security Systems Integration",
+              "description": "Unifying alarms, cameras, access control and analytics under one UI."
+            }
+          }
+        ]
+      }
+    ]
+  },
+
+  "knowsAbout": [
+    "Corporate Security",
+    "Event Security",
+    "Retail Security",
+    "Access Control",
+    "Video Surveillance",
+    "Armed Guards",
+    "Unarmed Guards",
+    "Fire & Life Safety Directors"
+  ],
+
+  "slogan": "New York City’s Trusted Security Partner",
+
+  "makesOffer": [{
+    "@type": "Offer",
+    "name": "Free Security Assessment",
+    "description": "Complimentary on-site security evaluation",
+    "price": 0,
+    "priceCurrency": "USD"
+  }]
+}
+</script>
